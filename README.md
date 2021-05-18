@@ -8,4 +8,4 @@ Some stupid bot i wrote that barely works
 
 ## Usage
 
-Theres a built in help command(.help) where `.` is your prefix
+Theres a built in help command(`.help`) where `.` is your prefix
