@@ -1,0 +1,9 @@
+{
+    "commands": [
+        {
+            "name": "start",
+            "context": "contains guides for installing the HBC and Bootmii",
+            "syntax": "`.wii start <exploit>`\nTyping .wii `start` without an exploit will list exploits"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+IOS, Exploit1, Exploit2, Exploit3
+...runs on IOS58 (rev 65535).
+
+Region: NTSC-U
+System Menu 4.3U (v513)
+Priiloader installed
+Drive date: 09.07.2006
+Homebrew Channel 1.1.2 running on IOS58
+
+Hollywood v0x11
+Console ID: 48509306
+Console Type: Wii
+Shop Channel Country: United States (49)
+Boot2 v4
+Found 64 titles.
+Found 46 IOS on this console. 7 of them are stubs.
+
+IOS4 (rev 65280): Stub
+IOS9 (rev 65535): Trucha Bug
+IOS10 (rev 768): Stub
+IOS11 (rev 65535): Trucha Bug
+IOS12 (rev 526): No Patches
+IOS13 (rev 1032): No Patches
+IOS14 (rev 1032): No Patches
+IOS15 (rev 1032): No Patches
+IOS16 (rev 512): Stub
+IOS17 (rev 65535): Trucha Bug
+IOS20 (rev 65535): Trucha Bug
+IOS21 (rev 65535): Trucha Bug
+IOS22 (rev 1294): No Patches
+IOS28 (rev 65535): Trucha Bug
+IOS30 (rev 65535): Trucha Bug
+IOS31 (rev 3608): Trucha Bug, ES Identify, NAND Access
+IOS33 (rev 65535): Trucha Bug
+IOS34 (rev 3608): No Patches
+IOS35 (rev 65535): Trucha Bug, ES Identify, NAND Access
+IOS36 (rev 65535): Trucha Bug, ES Identify, NAND Access
+IOS37 (rev 65535): Trucha Bug, NAND Access
+IOS38 (rev 65535): Trucha Bug
+IOS40 (rev 65535): Trucha Bug
+IOS41 (rev 65535): Trucha Bug
+IOS43 (rev 65535): Trucha Bug
+IOS45 (rev 65535): Trucha Bug
+IOS46 (rev 65535): Trucha Bug
+IOS48 (rev 65535): Trucha Bug
+IOS50 (rev 65535): Trucha Bug
+IOS51 (rev 4864): Stub
+IOS52 (rev 65535): Trucha Bug
+IOS53 (rev 65535): Trucha Bug
+IOS55 (rev 65535): Trucha Bug
+IOS56 (rev 65535): Trucha Bug
+IOS57 (rev 65535): Trucha Bug
+IOS58 (rev 65535): Trucha Bug, USB 2.0
+IOS60 (rev 65535): Trucha Bug
+IOS61 (rev 5662): No Patches
+IOS70 (rev 65535): Trucha Bug
+IOS80 (rev 65535): Trucha Bug
+IOS222 (rev 65280): Stub
+IOS223 (rev 65280): Stub
+IOS249[57] (rev 65535), Info: d2x-v10beta52): Trucha Bug, NAND Access, USB 2.0
+IOS250[56] (rev 65535), Info: d2x-v10beta52): Trucha Bug, NAND Access, USB 2.0
+IOS251[58] (rev 65535), Info: d2x-v10beta52): Trucha Bug, NAND Access, USB 2.0
+IOS254 (rev 65280): Stub
+BC v6
+MIOS v10
+Report generated on 06/27/2007.

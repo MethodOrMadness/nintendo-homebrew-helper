@@ -1,0 +1,14 @@
+{
+    "help": "__**3DS Family Help Commands**__\n*`.3ds start` - Gives the 2 basic guides*\n*`.3ds b9s` - Guide to installing boot9strap with Un-safe Mode*\n*`.3ds final` - Finalizing Setup (good to get files you may have missed)*\n*`.3ds pm` - Guide to updating luma incase you accidentally updated the 3ds first*\n*`.3ds twl` - Gives a QR code to install TwiLight Menu++*\n*`.3ds id0` - Displays image explaining id0*\n*`.3ds root` - Displays image explaining root*\n*`.3ds cart` - Displays image explaining carts*\n*`.3ds manualupdate` - manually update LumaCFW*\n",
+    "start": "<https://3ds.hacks.guide/get-started> Only pick an exploit for your console!",
+    "b9s": "https://3ds.hacks.guide/installing-boot9strap-(browser).html",
+    "final": "https://3ds.hacks.guide/finalizing-setup",
+    "pm": "Manually Updating Luma3DS\nA guide for manually updating Luma3ds. This is necessary if you receive the \"Failed to apply 1 Firm patch(es)\" or \"pm\" errors.\nhttps://gist.github.com/lilyuwuu/3a7ba3dcd2476e6b5f4b6f66fa173bd6",
+    "twl": "use universal updater (<https://universal-team.net/projects/universal-updater.html>) to download TWL menu",
+    "id0": "https://media.discordapp.net/attachments/196635695958196224/677996125034250280/unknown-76.png",
+    "root1": "https://i.imgur.com/QXHIvOz.jpg",
+    "root2": "root: its the topmost directory of a SD / Flash drive, so if you plug it into your computer and open the drive, that is the 'root' of the drive",
+    "cart": "https://i.imgur.com/nvnObqz.png",
+    "manualupdate": "https://gist.github.com/lilyuwuu/3a7ba3dcd2476e6b5f4b6f66fa173bd6",
+    "default": "No command supplied! Type `.3ds help` for a list of subcommands!"
+}

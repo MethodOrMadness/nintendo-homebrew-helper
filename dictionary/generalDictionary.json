@@ -1,0 +1,17 @@
+{
+    "credits": "\nCredits: MethodMusic\nOscie\nDevnol\nAkisBlack",
+    "help": "\n__**Bot Information**__\n*Version - \"2.0\"*\n*Prefix - \".\"*\n__**Commands**__\n*Type `.wii help` for a list of wii help commands*\n*Type `.3ds help` for a list of 3ds help commands*\n*Type `.wiiu help` for a list of wiiu help commands*\n\n\n__**Misc. Commands**__\n*`.credits` - Show Credits*\n*`.gtdb` - link to gameTDB*\n*`.lmgtfy {term}` - generate google link for search with `term`*\n*`.michaelmjd` - what happens if you take michaelMJD's advice on soft modding*\n*`.ping` - pong!*\n*`.piracy` - rules on piracy*\n*`.pong` - Illegal!*\n*`.rtfm` - What to do when someone doesn't follow the link you sent*\n*`.vguide` - why NOT to use video guides*\n",
+    "piracy": "As per our rules, we can not, and will not endorse or allow piracy, you will receive a warning, next time will be a kick",
+    "vguide": "**__Why you should *NOT* use video guides.__**\n*__Reasons to not use video guides:__*\n- *Most uploaders do not edit their guides after uploading, even if there are mistakes*\n- *When methods become outdated, the information is not updated*\n- *Difficult to give assistance with*\n- *Most videos also refer to a pre-packaged download, which are often outdated and poorly organised*\n*__What to use instead__*\n*Use our own commands to get the right guides!*\n*- `.wii start`*\n*- `.3ds start`*\n*- `.wiiu start`*\n",
+    "rtfm": "RTFM is an acronym(shortened phrase) meaning \"Read The Fricking Manual\"",
+    "mjd1": "https://cdn.discordapp.com/attachments/562384336066969634/756149548161826826/deathmini.jpg",
+    "mjd2": "This is likely to happen if you follow michaelMJD's video guides",
+    "gtdb": "https://gametdb.com/",
+    "**COMMENT0": "KICK COMMAND",
+    "NoRoleExist": "The Mods role does not exist",
+    "NoUserPerm": "You can't use this command.",
+    "NoMention": "Please mention a user",
+    "NotSupported": "Sorry, but this command is not supported in this guild!",
+    "**COMMENT1": "ID's",
+    "MethodID": "217076918049177601"
+}

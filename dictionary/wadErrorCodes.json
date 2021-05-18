@@ -1,0 +1,194 @@
+{
+    "ErrorCodes": [
+        {
+            "Code": "-106",
+            "Meaning": "No such file or directory (returned by the FS module indirectly)",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1005",
+            "Meaning": "Invalid public key type in certificate",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1009",
+            "Meaning": "Read failure (short read)",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1010",
+            "Meaning": "Write failure (short write)",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1012",
+            "Meaning": "Invalid signature type (for signed blobs)",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1016",
+            "Meaning": "Maximum amount of handles exceeded (3 handles, as there are only 3 contexts)",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1017",
+            "Meaning": "Invalid arguments",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1020",
+            "Meaning": "Device ID mismatch. Returned by ES_ImportTicket if the ticket is personalised and the device ID from the ticket mismatches with the actual ID.",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1022",
+            "Meaning": "Imported content hash does not match with the hash from the TMD. Returned by ES_ImportContentEnd and ES_ImportBoot.",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1024",
+            "Meaning": "Memory allocation failure",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1026",
+            "Meaning": "Incorrect access rights (according to the TMD)",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1027",
+            "Meaning": "Issuer not found in the certificate chain",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1028",
+            "Meaning": "Ticket not found",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1029",
+            "Meaning": "Invalid ticket. This is returned if the common key field contains an invalid value (anything other than 0 or 1). This is also returned from ES_LaunchTitle if the title ID contained in the ticket does not match the TMD title ID.",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1031",
+            "Meaning": "During LaunchTitle/ImportTitle: installed boot2 version is too old.\nDuring ImportBoot: downgrades are not allowed.",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1032",
+            "Meaning": "Fatal error early in ES initialisation. Can also be returned in ES_CheckHasKoreanKey in some cases.",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1033",
+            "Meaning": "A ticket limit was exceeded (duration or launch count)",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1034",
+            "Meaning": "Returned in ES_CheckHasKoreanKey in some cases.",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1035",
+            "Meaning": "A title with a higher version is already installed",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1036",
+            "Meaning": "Required sysversion(IOS) is not installed (only for the system menu)",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1037",
+            "Meaning": "Installed number of contents doesn't match TMD (only for the system menu)",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-1039",
+            "Meaning": "Returned by DI as an ES error code when \"TMD not supplied for disc/nand game\"",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2000",
+            "Meaning": "Permission denied (returned when accessing an object for which the caller has no permission)",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2001",
+            "Meaning": "IOSC_EEXIST",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2003",
+            "Meaning": "IOSC_EMAX",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2004",
+            "Meaning": "IOSC_ENOENT",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2005",
+            "Meaning": "IOSC_INVALID_OBJTYPE",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2006",
+            "Meaning": "IOSC_INVALID_RNG",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2007",
+            "Meaning": "IOSC_INVALID_FLAG",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2008",
+            "Meaning": "IOSC_INVALID_FORMAT",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2009",
+            "Meaning": "IOSC_INVALID_VERSION",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2010",
+            "Meaning": "IOSC_INVALID_SIGNER",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2011",
+            "Meaning": "IOSC_FAIL_CHECKVALUE\nKnown to be returned when a signature check failed.",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2012",
+            "Meaning": "Internal failure",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2013",
+            "Meaning": "Memory allocation failure. Known to be returned when the keyring is full (contains 0x20 keys)",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2014",
+            "Meaning": "Invalid size",
+            "SuggestedFix": "Re-Download your WAD"
+        },
+        {
+            "Code": "-2015",
+            "Meaning": "Invalid address",
+            "SuggestedFix": ""
+        },
+        {
+            "Code": "-2016",
+            "Meaning": "Unaligned data",
+            "SuggestedFix": ""
+        }
+    ]
+}
