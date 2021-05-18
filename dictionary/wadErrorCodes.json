@@ -163,7 +163,7 @@
         {
             "Code": "-2011",
             "Meaning": "IOSC_FAIL_CHECKVALUE\nKnown to be returned when a signature check failed.",
-            "SuggestedFix": ""
+            "SuggestedFix": "Usually this is fixed by loading an IOS with AHBPROT(ios58) or using cIOS249"
         },
         {
             "Code": "-2012",
