@@ -89,8 +89,8 @@ module.exports = {
                     }
                     let searchResult = wadErrorCodes.ErrorCodes.find(Code => Code.Code == args1);
                     
-                    if(!searchResult.SuggestedFix) {
-                        return;
+                    if(!searchResult) {
+                        return sendMsg(`No results found for ${args1}`);
                     } else if(searchResult.SuggestedFix === "") {
                         var SuggestedFix = "Fix your WAD Manager";
                     } else {
@@ -99,8 +99,6 @@ module.exports = {
     
                     if (searchResult) {
                       return sendMsg(`Found result for \`${args1}\`: ${searchResult.Meaning}, Suggested Fix: ${SuggestedFix}`);
-                    } else {
-                      return sendMsg(`No results found for ${args1}`);
                     }
                 case 'yaosm':
                     return sendMsg(`\n${wiiDictionary.yaosm}`);
