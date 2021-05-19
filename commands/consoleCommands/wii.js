@@ -89,7 +89,9 @@ module.exports = {
                     }
                     let searchResult = wadErrorCodes.ErrorCodes.find(Code => Code.Code == args1);
                     
-                    if(searchResult.SuggestedFix === "") {
+                    if(!searchResult.SuggestedFix) {
+                        return;
+                    } else if(searchResult.SuggestedFix === "") {
                         var SuggestedFix = "Fix your WAD Manager";
                     } else {
                         var SuggestedFix = searchResult.SuggestedFix;

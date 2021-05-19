@@ -10,6 +10,7 @@ module.exports = (bot) => {
     const readCommands = dir => {
         const files = fs.readdirSync(path.join(__dirname, dir));
 
+        // Load all the commands 
         for(const file of files) {
             const stat = fs.lstatSync(path.join(__dirname, dir, file));
             if(stat.isDirectory()) {
@@ -22,6 +23,7 @@ module.exports = (bot) => {
         }
     }
 
+    // Read the commands out
     readCommands('commands');
 
     if(bot) {
