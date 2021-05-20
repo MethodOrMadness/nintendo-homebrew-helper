@@ -9,7 +9,6 @@ module.exports = {
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes, bot) => {
 
         let args0 = arguments[0];
-            args1 = msgArr[1];
 
         if(message.author.id !== `${generalDictionary.MethodID}`) return 0;
     

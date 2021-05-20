@@ -1,7 +1,7 @@
 module.exports = {
     commands: 'update',
     expectedArgs: '<HexColor> <channelID> <update features>',
-    minArgs: 2,
+    minArgs: 3,
     maxArgs: null,
     permissions: ['ADMINISTRATOR'],
     requiredRoles: [],
