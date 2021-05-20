@@ -3,7 +3,7 @@ module.exports = {
     expectedArgs: '<search term>',
     permissionError: '',
     minArgs: 1,
-    maxArgs: 1,
+    maxArgs: null,
     permissions: [],
     requiredRoles: [],
     description: "Basically a google command",
