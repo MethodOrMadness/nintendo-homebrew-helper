@@ -83,9 +83,13 @@ module.exports = {
                 case 'nusd':
                     return sendMsg(`\n${wiiDictionary.nusd}`);
                 case 'waderr':
+                    var reply = [];
                     if(!args1) {
-                        // TODO: make this display a list of all available error codes
-                        return;
+                        wadErrorCodes.ErrorCodes.forEach(Code => {
+                            reply += `\`${Code.Code}\`, `;
+                        })
+                        reply = reply.slice(0, -2);
+                        return message.reply(`\nKnown error codes:\n` + reply);
                     }
                     let searchResult = wadErrorCodes.ErrorCodes.find(Code => Code.Code == args1);
                     
