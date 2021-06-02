@@ -1,13 +1,13 @@
 module.exports = {
     commands: 'shutup',
-    expectedArgs: '',
+    expectedArgs: '[UserMention]',
     permissionError: '',
     minArgs: 0,
-    maxArgs: null,
+    maxArgs: 1,
     permissions: [],
     requiredRoles: [],
     description: "When someone needs to shut the fuck up",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes) => {
-        return message.channel.send(`${generalDictionary.shutup}`)
+        return message.channel.send(`${message.mentions.users.first()} ${generalDictionary.shutup}`)
     }
 }
