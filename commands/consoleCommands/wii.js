@@ -15,7 +15,11 @@ module.exports = {
     
             switch(args0) {
                 case 'help': // help command
-                    return sendMsg(`\n${wiiDictionary.help}`);
+                    var reply = [];
+                        helpfile.commands.forEach(context => {
+                            reply += `*\`.wii ${context.syntax}\` - ${context.context}*\n`;
+                        })
+                        return message.reply(`\n` + reply);
                 case 'start': // entry point for modding
                     switch(args1) {
                         case 'letterbomb':

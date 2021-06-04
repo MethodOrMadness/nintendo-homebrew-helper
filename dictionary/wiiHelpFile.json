@@ -1,9 +1,96 @@
 {
     "commands": [
         {
-            "name": "start",
-            "context": "contains guides for installing the HBC and Bootmii",
-            "syntax": "`.wii start <exploit>`\nTyping .wii `start` without an exploit will list exploits"
+            "context": "contains list of exploits",
+            "syntax": "start"
+        },
+        {
+            "context": "HBC and Bootmii install information",
+            "syntax": "hbc"
+        },
+        {
+            "context": "Creating a NAND Backup with bootmii",
+            "syntax": "nand"
+        },
+        {
+            "context": "Installing Priiloader",
+            "syntax": "prii"
+        },
+        {
+            "context": "Installing cIOS on a NORMAL WII",
+            "syntax": "cios"
+        },
+        {
+            "context": "Installing cIOS on a WII MINI",
+            "syntax": "cios mini"
+        },
+        {
+            "context": "Installing cIOS without internet",
+            "syntax": "cios offline"
+        },
+        {
+            "context": "Installing USBLoaderGX",
+            "syntax": "ulgx"
+        },
+        {
+            "context": "Wii Mod Lite",
+            "syntax": "wml"
+        },
+        {
+            "context": "Copy games to a flash drive(the bad way)",
+            "syntax": "wbm"
+        },
+        {
+            "context": "Install RC24",
+            "syntax": "rc24"
+        },
+        {
+            "context": "Create a syscheck",
+            "syntax": "sc"
+        },
+        {
+            "context": "Installing Wiimmfi",
+            "syntax": "wiimmfi"
+        },
+        {
+            "context": "Intsalling custom themes",
+            "syntax": "theme"
+        },
+        {
+            "context": "Iso to WBFS",
+            "syntax": "itw"
+        },
+        {
+            "context": "Info on file structure",
+            "syntax": "files"
+        },
+        {
+            "context": "troubleshoot",
+            "syntax": "Basic Loader Troubleshooting"
+        },
+        {
+            "context": "Dumping games",
+            "syntax": "dumping"
+        },
+        {
+            "context": "Links to NUSD",
+            "syntax": "nusd"
+        },
+        {
+            "context": "look up wad manager error codes",
+            "syntax": "waderr -<XXXX>"
+        },
+        {
+            "context": "Make and install your own drivechip(on some wii's)",
+            "syntax": "yaosm"
+        },
+        {
+            "context": "Proper Port for USBLoaders",
+            "syntax": "port0"
+        },
+        {
+            "context": "Create game Forwarders",
+            "syntax": "wiigsc"
         }
     ]
 }
