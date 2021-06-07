@@ -112,6 +112,8 @@ module.exports = {
                     return sendMsg(`\n${wiiDictionary.yaosm}`);
                 case 'port0':
                     return sendMsg(`\n${wiiDictionary.port0}`);
+                case 'wiigsc':
+                    return sendMsg(`\n${wiiDictionary.wiigsc}`);
                 default:
                     message.reply(`Incorrect syntax! use .wii ${expectedArgs}`);
             }
