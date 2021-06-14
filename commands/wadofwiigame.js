@@ -1,5 +1,5 @@
 module.exports = {
-    commands: 'shutup',
+    commands: ['wadOfWiiGame', 'wiigamewad', 'shutup'],
     expectedArgs: '[UserMention]',
     permissionError: '',
     minArgs: 0,
