@@ -12,6 +12,7 @@ module.exports = {
 
         let args0 = arguments[0]
             args1 = arguments[1]
+            args2 = arguments[2]
     
             switch(args0) {
                 case 'help': // help command
@@ -115,7 +116,7 @@ module.exports = {
                 case 'wiigsc':
                     return sendMsg(`\n${wiiDictionary.wiigsc}`);
                 case 'wadofwiigame':
-                    if(args[1]) {
+                    if(args[2]) {
                         return message.channel.send(`${message.mentions.users.first()} ${generalDictionary.shutup}`);
                     } else {
                         return message.channel.send(`${generalDictionary.shutup}`);

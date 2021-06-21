@@ -91,6 +91,10 @@
         {
             "context": "Create game Forwarders",
             "syntax": "wiigsc"
+        },
+        {
+            "context": "when someone needs some WADs",
+            "syntax": "wadofwiigame [usermention]"
         }
     ]
 }
