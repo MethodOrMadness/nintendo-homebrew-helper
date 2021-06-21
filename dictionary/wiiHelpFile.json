@@ -65,8 +65,8 @@
             "syntax": "files"
         },
         {
-            "context": "troubleshoot",
-            "syntax": "Basic Loader Troubleshooting"
+            "context": "Basic Loader Troubleshooting",
+            "syntax": "troubleshoot"
         },
         {
             "context": "Dumping games",
