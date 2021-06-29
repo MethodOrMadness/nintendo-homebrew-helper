@@ -95,6 +95,10 @@
         {
             "context": "when someone needs some WADs",
             "syntax": "wadofwiigame [usermention]"
+        },
+        {
+            "context": "riitag setup",
+            "syntax": "riitag"
         }
     ]
 }
