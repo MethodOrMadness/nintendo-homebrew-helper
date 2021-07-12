@@ -36,5 +36,6 @@
     "troubleshooting": "Loader Troubleshooting:\n1: Wrong USB port. The only USB port that can run game backups is the one on the edge of the Wii(known as port 0, `.wii port0`), unless you are using d2x beta53-alt cIOS, which is not recommended as it is not as compatible.\n\n2: cIOS is not set up correctly (follow https://wii.guide/cios). We can only confirm it is done right with a syscheck (follow https://wii.guide/syscheck). Keep in mind that some games that use accessories will require a different IOS to run.\n\n3: Image is bad/corrupted. Testable in Dolphin Emulator. Make sure it's wbfs or iso (not nkit) if you're trying to play a Wii game.\n\n4: Use the latest version of your loader, use default settings and name the games as such for Wii games> USB:/wbfs/GameName [GameID]/GameID.wbfs\n\n5: USB isn't compatible. That is most likely to happen with flash drives. HDDs are always the best way to store games on the Wii.\n\n6: Don't use a forwarder. Launch the app directly from the Homebrew Channel.",
     "port0": "https://images-ext-1.discordapp.net/external/KWAl3mKCDE3WU_F0ZjZpUtMg1uTb8LvaFIWdKT2E2G0/https/i.imgur.com/zNrAp5o.png?width=401&height=498",
     "wiigsc": "<https://wii.guide/wiigsc>",
-    "riitag": "<https://wii.guide/riitag>"
+    "riitag": "<https://wii.guide/riitag>",
+    "hbb": "\nDON'T FUCKIN USE IT\n\nIt contains outdated Homebrew, don't use OSC either. its based on hbb, uses the same buggy code, and the repo contains old as well as modified homebrew, without disclosing this"
 }

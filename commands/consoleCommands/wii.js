@@ -122,7 +122,9 @@ module.exports = {
                         return message.channel.send(`${generalDictionary.shutup}`);
                     }
                 case 'riitag':
-                    return message.reply(`\n${wiiDictionary.riitag}`)
+                    return message.reply(`\n${wiiDictionary.riitag}`);
+                case 'hbb':
+                    return message.reply(`${wiiDictionary.hbb}`)
                 default:
                     message.reply(`Incorrect syntax! use .wii ${expectedArgs}`);
             }
