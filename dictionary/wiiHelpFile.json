@@ -99,6 +99,10 @@
         {
             "context": "riitag setup",
             "syntax": "riitag"
+        },
+        {
+            "context": "hbb",
+            "syntax": "whenever someone thinks that using hbb/osc is a good idea"
         }
     ]
 }
