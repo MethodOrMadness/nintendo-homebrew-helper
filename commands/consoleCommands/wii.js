@@ -116,7 +116,7 @@ module.exports = {
                 case 'wiigsc':
                     return sendMsg(`\n${wiiDictionary.wiigsc}`);
                 case 'wadofwiigame':
-                    if(args[2]) {
+                    if(args2) {
                         return message.channel.send(`${message.mentions.users.first()} ${generalDictionary.shutup}`);
                     } else {
                         return message.channel.send(`${generalDictionary.shutup}`);
