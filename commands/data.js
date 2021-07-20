@@ -1,13 +1,9 @@
 module.exports = {
-    commands: 'command',
-    expectedArgs: '',
-    permissionError: '',
+    commands: ['data', 'dontasktoask'],
     minArgs: 0,
     maxArgs: 0,
-    permissions: [],
-    requiredRoles: [],
-    description: "",
+    description: "when someone asks to ask",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes) => {
-        return 0; // code here
+        return message.channel.send(`${generalDictionary.data}`);
     },
 }
