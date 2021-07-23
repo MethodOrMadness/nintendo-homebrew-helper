@@ -13,4 +13,4 @@ Theres a built in help command (`.help`) where `.` is your prefix
 ## Useful Features
 
 - WAD Manager Error code lookup (`.wii waderr -2011`)
-- List of support commands for wii & 3ds(needs to be updated) and WiiU(vWii)
+- List of support commands for Wii & 3DS (needs to be updated) and WiiU (vWii)
