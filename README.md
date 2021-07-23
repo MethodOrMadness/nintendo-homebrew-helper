@@ -1,6 +1,6 @@
 # nintendo-homebrew-helper
 
-Some stupid bot i wrote that barely works
+Some stupid bot I wrote that barely works.
 
 ## Install dependency
 
@@ -8,9 +8,9 @@ Some stupid bot i wrote that barely works
 
 ## Usage
 
-Theres a built in help command(`.help`) where `.` is your prefix
+Theres a built in help command (`.help`) where `.` is your prefix
 
 ## Useful Features
 
-- WAD Manager Error code lookup(`.wii waderr -2011`)
+- WAD Manager Error code lookup (`.wii waderr -2011`)
 - List of support commands for wii & 3ds(needs to be updated) and WiiU(vWii)
