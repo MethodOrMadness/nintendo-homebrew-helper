@@ -8,17 +8,17 @@
         {
             "Code": "-1005",
             "Meaning": "Invalid public key type in certificate",
-            "SuggestedFix": ""
+            "SuggestedFix": "Correct header issue"
         },
         {
             "Code": "-1009",
             "Meaning": "Read failure (short read)",
-            "SuggestedFix": ""
+            "SuggestedFix": "Re-launch your wad manager or try another wad"
         },
         {
             "Code": "-1010",
             "Meaning": "Write failure (short write)",
-            "SuggestedFix": ""
+            "SuggestedFix": "Re-launch your wad manager or try another wad"
         },
         {
             "Code": "-1012",
@@ -38,22 +38,22 @@
         {
             "Code": "-1020",
             "Meaning": "Device ID mismatch. Returned by ES_ImportTicket if the ticket is personalised and the device ID from the ticket mismatches with the actual ID.",
-            "SuggestedFix": ""
+            "SuggestedFix": "Wad isnt fake signed and you are trying to install a wad dumped from another console"
         },
         {
             "Code": "-1022",
             "Meaning": "Imported content hash does not match with the hash from the TMD. Returned by ES_ImportContentEnd and ES_ImportBoot.",
-            "SuggestedFix": ""
+            "SuggestedFix": "Fix the header"
         },
         {
             "Code": "-1024",
             "Meaning": "Memory allocation failure",
-            "SuggestedFix": ""
+            "SuggestedFix": "Re-start your wad manager or try another wad manager"
         },
         {
             "Code": "-1026",
             "Meaning": "Incorrect access rights (according to the TMD)",
-            "SuggestedFix": ""
+            "SuggestedFix": "Try reloading with ios58 with AHBPROT or a cios"
         },
         {
             "Code": "-1027",
@@ -68,12 +68,12 @@
         {
             "Code": "-1029",
             "Meaning": "Invalid ticket. This is returned if the common key field contains an invalid value (anything other than 0 or 1). This is also returned from ES_LaunchTitle if the title ID contained in the ticket does not match the TMD title ID.",
-            "SuggestedFix": ""
+            "SuggestedFix": "fix the WAD"
         },
         {
             "Code": "-1031",
             "Meaning": "During LaunchTitle/ImportTitle: installed boot2 version is too old.\nDuring ImportBoot: downgrades are not allowed.",
-            "SuggestedFix": ""
+            "SuggestedFix": "Why are you trying to downgrade boot2? Stop."
         },
         {
             "Code": "-1032",
@@ -83,7 +83,7 @@
         {
             "Code": "-1033",
             "Meaning": "A ticket limit was exceeded (duration or launch count)",
-            "SuggestedFix": ""
+            "SuggestedFix": "Try another wad"
         },
         {
             "Code": "-1034",
@@ -93,12 +93,12 @@
         {
             "Code": "-1035",
             "Meaning": "A title with a higher version is already installed",
-            "SuggestedFix": ""
+            "SuggestedFix": "uninstall existing version or install a higher version wad"
         },
         {
             "Code": "-1036",
             "Meaning": "Required sysversion(IOS) is not installed (only for the system menu)",
-            "SuggestedFix": ""
+            "SuggestedFix": "Dont install another system menu. theres no need for it."
         },
         {
             "Code": "-1037",
@@ -113,7 +113,7 @@
         {
             "Code": "-2000",
             "Meaning": "Permission denied (returned when accessing an object for which the caller has no permission)",
-            "SuggestedFix": ""
+            "SuggestedFix": "reload using ios58 with AHBPROT or a cIOS"
         },
         {
             "Code": "-2001",
@@ -178,7 +178,7 @@
         {
             "Code": "-2014",
             "Meaning": "Invalid size",
-            "SuggestedFix": "Re-Download your WAD"
+            "SuggestedFix": "the wad is larger than the NAND"
         },
         {
             "Code": "-2015",
