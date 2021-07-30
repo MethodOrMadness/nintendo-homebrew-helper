@@ -6,7 +6,7 @@ module.exports = {
     maxArgs: 0,
     permissions: [],
     requiredRoles: [],
-    description: "",
+    description: "links to gui format for formatting drives larger than fat32 on windows",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes) => {
         return message.channel.send(`${generalDictionary.formatProg}`);
     },
