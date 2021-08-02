@@ -103,6 +103,10 @@
         {
             "context": "whenever someone thinks that using hbb/osc is a good idea",
             "syntax": "hbb"
+        },
+        {
+            "context": "wii game modloader",
+            "syntax": "rii"
         }
     ]
 }
