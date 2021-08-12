@@ -1,5 +1,5 @@
 module.exports = {
-    commands: 'google',
+    commands: ['google', 'g', 'search'],
     expectedArgs: '<search term>',
     permissionError: '',
     minArgs: 1,
