@@ -123,8 +123,6 @@ module.exports = {
                     }
                 case 'riitag':
                     return message.reply(`\n${wiiDictionary.riitag}`);
-                case 'hbb':
-                    return message.reply(`${wiiDictionary.hbb}`);
                 case 'rii':
                     return message.reply(`${wiiDictionary.rii}`);
                 default:
