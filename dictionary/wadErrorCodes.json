@@ -189,6 +189,11 @@
             "Code": "-2016",
             "Meaning": "Unaligned data",
             "SuggestedFix": ""
+        },
+        {
+            "Code": "-3252",
+            "Meaning": "ES not initialized",
+            "SuggestedFix": "Install cios249, use a different wad manager, restart your console"
         }
     ]
 }
