@@ -1,12 +1,12 @@
 module.exports = {
-    commands: 'command',
+    commands: ['sdunlock', 'cardlock', 'writeprotect'],
     expectedArgs: '',
     permissionError: '',
     minArgs: 0,
     maxArgs: 0,
     permissions: [],
     requiredRoles: [],
-    description: "",
+    description: "image telling you to unlock sd card",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes) => {
         return sendMsg({ files: ["./resources/unlocksd.png"] });
     },
