@@ -8,6 +8,6 @@ module.exports = {
     requiredRoles: [],
     description: "image telling you to unlock sd card",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes) => {
-        return message.channel.send({ files: ["./resources/unlocksd.png"] });
+        return message.channel.send({ files: ["./resources/sdunlock.png"] });
     },
 }
