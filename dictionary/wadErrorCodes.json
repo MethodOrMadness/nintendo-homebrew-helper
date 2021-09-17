@@ -191,7 +191,7 @@
             "SuggestedFix": ""
         },
         {
-            "Code": "-3252",
+            "Code": "-4352",
             "Meaning": "ES not initialized",
             "SuggestedFix": "Install cios249, use a different wad manager, restart your console"
         }
