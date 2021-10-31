@@ -125,6 +125,8 @@ module.exports = {
                     return message.reply(`\n${wiiDictionary.riitag}`);
                 case 'rii':
                     return message.reply(`${wiiDictionary.rii}`);
+                case 'wit':
+                    return message.reply(`${wiiDictionary.wit}`)
                 default:
                     message.reply(`Incorrect syntax! use .wii ${expectedArgs}`);
             }

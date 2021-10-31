@@ -103,6 +103,10 @@
         {
             "context": "wii game modloader",
             "syntax": "rii"
+        },
+        {
+            "context": "general purpose wii image editor",
+            "syntax": "wit"
         }
     ]
 }
