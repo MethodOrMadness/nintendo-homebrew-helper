@@ -6,9 +6,9 @@ module.exports = {
     requiredRoles: [],
     description: "",
     callback: (message) => {
-        if(message.user.id !== '217076918049177601') {
+        if(message.author.id !== '217076918049177601') {
             return message.reply("Insufficient permissions!");
-        } else if(message.user.id === '217076918049177601') {
+        } else if(message.author.id === '217076918049177601') {
             message.reply("Okay, dying now :/");
             return process.exit(1);
         } else {
