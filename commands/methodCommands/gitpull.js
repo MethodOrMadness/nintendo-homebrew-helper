@@ -12,7 +12,7 @@ module.exports = {
             message.reply("Pulling....");
             setTimeout(function() {
                 const { exec } = require('child_process');
-                var yourscript = exec('systemctl status nhbot.service',
+                var yourscript = exec('git pull',
                         (error, stdout, stderr) => {
                             console.log(stdout);
                             console.log(stderr);
