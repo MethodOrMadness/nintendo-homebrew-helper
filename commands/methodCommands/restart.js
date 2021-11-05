@@ -10,7 +10,7 @@ module.exports = {
             return message.reply("Insufficient permissions!");
         } else if(message.author.id === '217076918049177601') {
             message.reply("Okay, dying now :/");
-            process.exit(1);
+            setTimeout(process.exit(1), 1000);
         } else {
             throw error;
         }
