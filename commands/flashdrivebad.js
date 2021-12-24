@@ -8,6 +8,6 @@ module.exports = {
     requiredRoles: [],
     description: "",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes) => {
-        message.channel.reply("FLASH DRIVE BAD. HARD DRIVE GOOD");
+        message.reply("FLASH DRIVE BAD. HARD DRIVE GOOD");
     },
 }
