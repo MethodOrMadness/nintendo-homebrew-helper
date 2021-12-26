@@ -6,7 +6,7 @@ module.exports = {
     maxArgs: 0,
     permissions: [],
     requiredRoles: [],
-    description: "",
+    description: "flash drive bad, duh",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes) => {
         message.reply("FLASH DRIVE BAD. HARD DRIVE GOOD");
     },
