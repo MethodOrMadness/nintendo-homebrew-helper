@@ -3,7 +3,7 @@ module.exports = {
     expectedArgs: '<statusType>',
     minArgs: 1,
     maxArgs: 1,
-    permissions: ['ADMINISTRATOR'],
+    permissions: [],
     requiredRoles: [],
     description: "sets the bot's status, only useable by Method",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes, bot) => {

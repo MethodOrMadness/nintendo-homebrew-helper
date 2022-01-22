@@ -3,7 +3,7 @@ module.exports = {
     expectedArgs: '<HexColor> <channelID> <update features>',
     minArgs: 3,
     maxArgs: null,
-    permissions: ['ADMINISTRATOR'],
+    permissions: [],
     requiredRoles: [],
     description: "post bot update, not useable by anyone except Method",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes, bot) => {

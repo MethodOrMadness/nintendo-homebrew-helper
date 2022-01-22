@@ -3,7 +3,7 @@ module.exports = {
     expectedArgs: '<channelID>',
     minArgs: 1,
     maxArgs: 1,
-    permissions: ['ADMINISTRATOR'],
+    permissions: [],
     requiredRoles: [],
     description: "asks if method should stream, only useable by Method",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes, bot) => {
