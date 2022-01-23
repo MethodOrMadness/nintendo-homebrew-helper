@@ -8,9 +8,10 @@ module.exports = {
     description: "sets the bot's status, only useable by Method",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes, bot) => {
 
+        let { adminID } = require(`../../botconfig.json`);
         let args0 = arguments[0];
 
-        if(message.author.id !== `${generalDictionary.MethodID}`) return 0;
+        if(message.author.id !== `${adminID}`) return 0;
     
         switch(args0) {
             case 'online': // set status to online

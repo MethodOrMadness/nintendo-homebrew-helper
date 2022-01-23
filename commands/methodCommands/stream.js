@@ -8,8 +8,9 @@ module.exports = {
     description: "asks if method should stream, only useable by Method",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes, bot) => {
         const Discord = require(`discord.js`);
+        let { adminID } = require(`../../botconfig.json`);
 
-        if(message.author.id !== `${generalDictionary.MethodID}`) return 0;
+        if(message.author.id !== `${adminID}`) return 0;
     
         let chanID = arguments[0];
             date = new Date();

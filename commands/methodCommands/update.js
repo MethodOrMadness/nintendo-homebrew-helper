@@ -8,8 +8,9 @@ module.exports = {
     description: "post bot update, not useable by anyone except Method",
     callback: (message, arguments, text, generalDictionary, wiiDictionary, wiiuDictionary, DSDictionary, wadErrorCodes, bot) => {
         const Discord = require(`discord.js`);
+        let { adminID } = require(`../../botconfig.json`);
 
-        if(message.author.id !== `${generalDictionary.MethodID}`) return 0;
+        if(message.author.id !== `${adminID}`) return 0;
     
         let args0 = arguments[0]
             args1 = arguments[1];
