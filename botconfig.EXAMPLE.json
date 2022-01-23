@@ -1,5 +1,6 @@
 {
     "token": "yourToken",
     "prefix": ".",
-    "version": "3.0"
+    "version": "3.0",
+    "adminID": "YOUR_USER_ID"
 }
