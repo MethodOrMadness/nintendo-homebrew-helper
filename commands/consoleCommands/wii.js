@@ -63,7 +63,7 @@ module.exports = {
                     return sendMsg(`\n${wiiDictionary.rc24}`);
                 case 'sc': // running syscheck
                     sendMsg(`\n${wiiDictionary.sc1}`);
-                    return sendMsg(`\n${wiiDictionary.sc2}`);
+                    return message.channel.send(`\n${wiiDictionary.sc2}`);
                 case 'wiimmfi': // setting up wiimmfi
                     return sendMsg(`\n${wiiDictionary.wiimmfi}`);
                 case 'theme': // installing themes

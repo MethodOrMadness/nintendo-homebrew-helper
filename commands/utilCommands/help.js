@@ -1,5 +1,5 @@
-const loadCommands = require(`../load-commands.js`);
-const { prefix } = require(`../botconfig.json`);
+const loadCommands = require(`../../load-commands.js`);
+const { prefix } = require(`../../botconfig.json`);
 module.exports = {
     commands: ['help', 'h'],
     description: "Describes all the commands for the bot",
