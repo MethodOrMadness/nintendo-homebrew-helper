@@ -2,5 +2,6 @@
     "token": "yourToken",
     "prefix": ".",
     "version": "3.0",
-    "adminID": "YOUR_USER_ID"
+    "adminID": "YOUR_USER_ID",
+    "servicename": "name of service file"
 }
