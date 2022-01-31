@@ -25,6 +25,6 @@ module.exports = {
         console.log(`stdout: ${stdout}`);
         interaction.channel.send(`stdout: ${stdout}`)
         });
-        return 0; // code here
+        return;
     },
 }
