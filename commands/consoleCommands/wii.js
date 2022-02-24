@@ -126,7 +126,9 @@ module.exports = {
                 case 'rii':
                     return message.reply(`${wiiDictionary.rii}`);
                 case 'wit':
-                    return message.reply(`${wiiDictionary.wit}`)
+                    return message.reply(`${wiiDictionary.wit}`);
+                case '32004':
+                    return message.reply(`https://www.rwiihacks.com/tutorials/32004fix/`);
                 default:
                     message.reply(`Incorrect syntax! use .wii ${expectedArgs}`);
             }
