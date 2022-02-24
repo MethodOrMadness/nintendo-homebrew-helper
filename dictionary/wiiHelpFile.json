@@ -107,6 +107,10 @@
         {
             "context": "general purpose wii image editor",
             "syntax": "wit"
+        },
+        {
+            "context": "32400 fix",
+            "syntax": "32400"
         }
     ]
 }
