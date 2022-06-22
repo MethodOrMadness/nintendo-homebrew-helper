@@ -47,7 +47,7 @@ module.exports = {
                     switch(args1) {
                         case 'offline':
                             sendMsg(`\n${wiiDictionary.ciosoffline}`);
-                            return sendMsg({ files: ["./resources/sharpiimod.zip"] });
+                            return sendMsg({ files: ["./resources/sharpiimod.zip", "./resources/cios_offline.sh"] });
                         case 'mini':
                             return sendMsg(`\n${wiiDictionary.mcios}`);
                         default:
