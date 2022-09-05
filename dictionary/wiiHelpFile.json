@@ -115,6 +115,10 @@
         {
             "context": "Video Output",
             "syntax": "videoOut"
+        },
+        {
+            "context": "Hackmii Scamstuck Fix",
+            "syntax": "scamstuck"
         }
     ]
 }

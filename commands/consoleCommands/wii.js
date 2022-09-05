@@ -131,6 +131,8 @@ module.exports = {
                     return message.reply(`https://www.rwiihacks.com/tutorials/32004fix/`);
                 case 'videoOut':
                     return message.reply(`${wiiDictionary.videoout}`);
+                case 'scamstuck':
+                    return message.reply(`${wiiDictionary.scamstuck}`);
                 default:
                     message.reply(`Incorrect syntax! use .wii ${expectedArgs}`);
             }
