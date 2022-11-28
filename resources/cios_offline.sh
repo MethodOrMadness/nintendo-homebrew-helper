@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #i don't know what that's for but it's going there anyways
 #On Windows, you can use ModMii to get cIOS wads
-Sharpii_DL="https://sketchmaster2001.github.io/RC24_Patcher/Sharpii"
+Sharpii_DL="https://patcher.rc24.xyz/update/RiiConnect24-Patcher_Unix/v1/Sharpii/"
 #System/Architecture Detector
 case $(uname -m),$(uname) in
  	x86_64,Darwin|arm64,Darwin)
@@ -41,5 +41,5 @@ echo "This script is to be able to continue https://wii.guide/cios without a wor
 download_ios 57 5918
 download_ios 56 5661
 download_ios 38 4123
-echo "There *should* be an \"ios\" folder in the folder this script this in. Move the 3 WAD files in it to where you have put the d2x-cIOS-installer."
+echo "There *should* be an \"ios\" folder in the folder this script this in. Move the 3 WAD files in it to *root* of the device (SD or USB) you have the d2x-cIOS-installer on."
 
